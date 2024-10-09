@@ -12,8 +12,7 @@
         "^gradle\\.properties$"
       ],
       matchStrings: [
-        "(^|\\n)\\s*platformType\\s*=\\s*IC\\s*(\\n+|$)[\\s\\S]*?(^|\\n)\\s*pluginUntilBuild\\s*=\\s*(?<currentValue>\\d+)\\.\\*\\s*(\\n+|$)",
-        "(^|\\n)\\s*pluginUntilBuild\\s*=\\s*(?<currentValue>\\d+)\\.\\*\\s*(\\n+|$)[\\s\\S]*?(^|\\n)\\s*platformType\\s*=\\s*IC\\s*(\\n+|$)"
+        "(^|\\n)\\s*pluginUntilBuild\\s*=\\s*(?<currentValue>\\d+)\\.\\*\\s*(\\n+|$)",
       ],
       depNameTemplate: "intellij-ideaIC-build-range-eap",
       packageNameTemplate: "com.jetbrains.intellij.idea:ideaIC",
